@@ -1,0 +1,45 @@
+# Mod JARs - pulled by launcher from manifest
+minecraft/mods/
+
+# Player/session data
+minecraft/usercache.json
+minecraft/usernamecache.json
+minecraft/servers.dat
+minecraft/servers.dat_old
+
+# Map cache, explored data, waypoint backups
+minecraft/xaero/minimap/Multiplayer_*
+minecraft/xaero/minimap/TestWorld/
+minecraft/xaero/world-map/Multiplayer_*
+minecraft/xaero/world-map/TestWorld/
+minecraft/XaeroWaypoints_BACKUP*/
+
+# World saves & player data
+minecraft/saves/
+
+# JEI server-specific history
+minecraft/config/jei/world/
+
+# Logs, crashes, runtime
+minecraft/logs/
+minecraft/crash-reports/
+minecraft/downloads/
+minecraft/local/
+
+# Client options (personal keybinds, video settings, etc)
+minecraft/options.txt
+
+# Resource/shader packs (large binaries, personal preference)
+minecraft/resourcepacks/
+minecraft/shaderpacks/
+
+# Screenshots
+minecraft/screenshots/
+
+# Lock files
+*.lock
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
