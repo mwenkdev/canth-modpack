@@ -1,0 +1,13 @@
+name = "Quickstack Reborn"
+filename = "quickstack-1.21.1-neoforge-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "40b14c206f305112cafb6d6ebe8919672d7b54a4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7434150
+project-id = 1402469

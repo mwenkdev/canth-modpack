@@ -1,0 +1,27 @@
+[general]
+	#Show the quickstack buttons in the inventory
+	showInventoryButton = true
+	#Ignore the hotbar when quick stacking
+	ignoreHotBar = true
+	#Enable the dump button
+	enableDump = true
+	#X offset for the inventory buttons
+	# Default: 0
+	# Range: -500 ~ 500
+	survivalInventoryButtonXOffset = 0
+	#Y offset for the inventory buttons
+	# Default: 0
+	# Range: -500 ~ 500
+	survivalInventoryButtonYOffset = 0
+	#How long to highlight chests after quick stacking (ms)
+	# Default: 3000
+	# Range: 0 ~ 60000
+	highlightDelay = 3000
+	#Minimum number of slots a container must have
+	# Default: 1
+	# Range: 1 ~ 100
+	minSlotCount = 1
+	#List of container types to show buttons in
+	whitelistedContainers = ["minecraft:generic_9x3", "minecraft:generic_9x6", "minecraft:shulker_box"]
+	#Color for favorite item overlay (hex)
+	favoriteColor = "00FF00"

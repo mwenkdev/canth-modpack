@@ -1,0 +1,13 @@
+name = "Revamped Cats"
+filename = "revampedcats-1.21-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5cb653f80dd156e36e717fee574468f0e08fee17"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5496777
+project-id = 852468

@@ -1,0 +1,13 @@
+name = "Nearby Chest Crafting"
+filename = "seamless crafting 1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "09ac4654fbf2a2bd898bd30d0872e3cc49fc320e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7776809
+project-id = 1438872

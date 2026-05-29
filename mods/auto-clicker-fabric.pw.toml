@@ -1,0 +1,13 @@
+name = "Auto Clicker"
+filename = "autoclicker-neoforge-21.1.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "406bfe8efaebc519ba89bf518380e22db0b55fa1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6019918
+project-id = 445095

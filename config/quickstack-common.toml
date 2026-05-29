@@ -1,0 +1,7 @@
+[general]
+	#Block entities to ignore when quick stacking
+	blockEntityBlacklist = ["minecraft:enchanting_table", "minecraft:beacon"]
+	#Search radius for nearby containers
+	# Default: 6
+	# Range: 1 ~ 32
+	searchRadius = 6
