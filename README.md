@@ -1,20 +1,59 @@
 # canth-modpack
 
-NeoForge 1.21.1 modpack for the Canth Minecraft server. Managed via PrismLauncher.
+NeoForge 1.21.1 modpack for the Canth Minecraft server, managed with [packwiz](https://packwiz.infra.link/).
 
-## Setup
+## Prerequisites
 
-1. Install [PrismLauncher](https://prismlauncher.org/)
-2. Clone this repo into your PrismLauncher instances directory
-3. Import or launch the instance — PrismLauncher will pull mod JARs from CurseForge/Modrinth
+```bash
+go install github.com/packwiz/packwiz@latest
+```
 
-## What's tracked
+## Usage
 
-- `instance.cfg` — PrismLauncher instance config
-- `minecraft/config/` — mod configurations
-- `minecraft/config/xaero/` — Xaero minimap/worldmap settings (not map data)
+```bash
+# Add a mod from Modrinth
+packwiz modrinth install <slug>
 
-## What's not tracked
+# Add a mod from CurseForge
+packwiz curseforge install <slug>
 
-Mod JARs, world saves, map cache, player data, screenshots, and personal client
-settings (keybinds, video, etc.) are all gitignored. See `.gitignore` for the full list.
+# Update all mods
+packwiz update --all
+
+# Update a specific mod
+packwiz update <slug>
+
+# Remove a mod
+packwiz remove <slug>
+
+# Validate and refresh the index
+packwiz refresh
+
+# List installed mods
+packwiz list
+
+# Export for distribution
+packwiz modrinth export -o canth.mrpack
+```
+
+## Client-only mods
+
+Tag client-only mods with `side = "client"` in their `.pw.toml` file.
+The server's packwiz-installer skips these automatically.
+
+## CI/CD
+
+- **Push to main** — validates the pack, checks index integrity, test export
+- **Manual release** — creates a GitHub Release with `.mrpack` and `.zip` exports,
+  deploys pack definition to GitHub Pages
+
+## Server integration
+
+The k3s Minecraft server pulls mods via `PACKWIZ_URL` in the itzg Helm chart values:
+
+```yaml
+extraEnv:
+  PACKWIZ_URL: "https://mwenkdev.github.io/canth-modpack/pack.toml"
+```
+
+On pod restart, the server downloads the latest server-side mods automatically.

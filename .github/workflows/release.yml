@@ -1,0 +1,112 @@
+name: Release Pack
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version (e.g. 1.0.0, 1.1.0)'
+        required: true
+        type: string
+      notes:
+        description: 'Release notes (what changed)'
+        required: false
+        type: string
+        default: ''
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  release:
+    runs-on: marauders-runner
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+          cache: false
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Refresh and validate
+        run: packwiz refresh
+
+      - name: Export Modrinth pack
+        run: packwiz modrinth export -o canth-modpack-${{ inputs.version }}.mrpack
+
+      - name: Export CurseForge pack
+        run: packwiz curseforge export -o canth-modpack-${{ inputs.version }}.zip
+
+      - name: Generate mod list
+        run: |
+          echo "# Canth Modpack v${{ inputs.version }}" > MODLIST.md
+          echo "" >> MODLIST.md
+          echo "NeoForge 1.21.1 | $(date -u +%Y-%m-%d)" >> MODLIST.md
+          echo "" >> MODLIST.md
+          echo "## Mods" >> MODLIST.md
+          echo "" >> MODLIST.md
+          packwiz list | sort >> MODLIST.md
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ inputs.version }}
+          name: Canth Modpack v${{ inputs.version }}
+          body: |
+            ${{ inputs.notes }}
+
+            ---
+            _See MODLIST.md in release assets for full mod listing._
+
+            **Client install:** Import the `.mrpack` into PrismLauncher/MultiMC, or the `.zip` into CurseForge.
+            **Server:** Pod will auto-update on next restart via PACKWIZ_URL.
+          files: |
+            canth-modpack-${{ inputs.version }}.mrpack
+            canth-modpack-${{ inputs.version }}.zip
+            MODLIST.md
+
+  # Deploy pack files to GitHub Pages so itzg can pull via PACKWIZ_URL
+  deploy-pages:
+    needs: release
+    runs-on: marauders-runner
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+          cache: false
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Refresh index
+        run: packwiz refresh
+
+      - name: Prepare pages directory
+        run: |
+          mkdir -p _site
+          # Copy all packwiz files (pack.toml, index.toml, mods/*.pw.toml, config/)
+          rsync -av --include='*.toml' --include='*/' \
+            --include='config/**' \
+            --exclude='.git*' --exclude='_site' \
+            --exclude='*.yml' --exclude='*.md' \
+            . _site/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,57 @@
+name: Validate Pack
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: marauders-runner
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+          cache: false
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Refresh index
+        run: packwiz refresh
+
+      - name: Verify no uncommitted changes
+        run: |
+          if ! git diff --quiet; then
+            echo "::error::index.toml is out of date. Run 'packwiz refresh' and commit."
+            git diff
+            exit 1
+          fi
+
+      - name: List mods
+        run: packwiz list
+
+      - name: Check client-only mods have side=client
+        run: |
+          # Flag any mods that should probably be client-only
+          CLIENT_MODS="auto-clicker xaeros-minimap xaeros-world-map just-enough-items"
+          WARNINGS=0
+          for mod in $CLIENT_MODS; do
+            FILE="mods/${mod}.pw.toml"
+            if [ -f "$FILE" ]; then
+              if ! grep -q 'side = "client"' "$FILE"; then
+                echo "::warning::${FILE} may need side = \"client\""
+                WARNINGS=$((WARNINGS + 1))
+              fi
+            fi
+          done
+          echo "Client-side check complete. ${WARNINGS} warning(s)."
+
+      - name: Test export (dry run)
+        run: |
+          packwiz modrinth export -o /tmp/canth-test.mrpack
+          echo "Export succeeded: $(du -h /tmp/canth-test.mrpack | cut -f1)"
