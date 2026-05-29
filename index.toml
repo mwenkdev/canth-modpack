@@ -463,9 +463,6 @@ file = "config/ars_nouveau/search_index/_7.si"
 file = "config/ars_nouveau/search_index/segments_8"
 
 [[files]]
-file = "config/ars_nouveau/search_index/write.lock"
-
-[[files]]
 file = "config/ars_nouveau/wololo.toml"
 
 [[files]]
