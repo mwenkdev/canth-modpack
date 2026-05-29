@@ -1,8 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/release.yml"
+hash = "5b9c542629ad17770adc01690088eaaa89e39dc1b8e05c74a321739a83e2391a"
+
+[[files]]
+file = ".github/workflows/validate.yml"
+hash = "d6e49eae4f5bdde945868f3d14956d944934b0e029e1045f4e7b4c137d30bbcb"
+
+[[files]]
 file = "README.md"
-hash = "a973e78f409b9ae0717f6c0a1b9fdaf29bb42d2dca930511b8cf64ab92ff0a10"
+hash = "1b492e876043b3c3dbfacaa99098878128f679f48ec4cc0fb0f986e0d26e6bff"
 
 [[files]]
 file = "config/Mekanism/client.toml"
@@ -10,7 +18,7 @@ hash = "fa311a5086b0cc91ad4ddd1a13d39d841675e9294c70d8366e88526520d276e9"
 
 [[files]]
 file = "config/Mekanism/common.toml"
-hash = "41850b5f863ea3463cbaf2c194849c18f25971c548bb7ab469f16a3f07e63929"
+hash = "9fcd433915c7fa1169afe3b44ae448c402b50c649ae54952e2ae2484923133d7"
 
 [[files]]
 file = "config/Mekanism/gear.toml"
@@ -726,7 +734,7 @@ hash = "cc59fb1039726fda3ab1eb69b06d9b9aebb7496604ea579cfb735bc5377e7825"
 
 [[files]]
 file = "config/inventoryessentials-common.toml"
-hash = "77fb901e83ad26e8b600cc982c49d4eda10521302451efde2806c2a84dfdd5eb"
+hash = "e8b17b7dd61c5068ab9f6ba442e086a020f414c80a7eb64d912c165f206e7b60"
 
 [[files]]
 file = "config/inventorysorter-client.toml"
@@ -986,7 +994,7 @@ metafile = true
 
 [[files]]
 file = "mods/auto-clicker-fabric.pw.toml"
-hash = "c75bb71bee5f6540f67f7d2c211627fd48610ed8823f6a0b121a6f4c9b8913a0"
+hash = "d93916ffe8301fa090c976d7d5025d2d5409777e967bc745ff718aa5a9a36a9d"
 metafile = true
 
 [[files]]
