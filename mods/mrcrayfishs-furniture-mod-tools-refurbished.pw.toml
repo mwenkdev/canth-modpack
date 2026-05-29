@@ -3,11 +3,11 @@ filename = "furniture_mod_tools_refurbished-1.0.0-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "613a472a7485b99a63be3e9d79e3779022f54430"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/wjNYBh7l/versions/pLoFIP1e/furniture_mod_tools_refurbished-1.0.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "4fe4b02c632c7f158b04f2323ad7b8c377bc6ee0009e4dc19016cbd040de9aa1d91b1140b2796dc03a61e084415e991581274da6ba07deaf38710dcb27a60f10"
 
 [update]
-[update.curseforge]
-file-id = 7336865
-project-id = 1405249
+[update.modrinth]
+mod-id = "wjNYBh7l"
+version = "pLoFIP1e"

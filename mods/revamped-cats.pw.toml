@@ -3,11 +3,11 @@ filename = "revampedcats-1.21-2.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5cb653f80dd156e36e717fee574468f0e08fee17"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/91KKN86q/versions/QpAqU7uJ/revampedcats-1.21-2.0.1.jar"
+hash-format = "sha512"
+hash = "5bc55af2be3a252ae64920fe556fd18806f7928fa9afe047005daaaafa62a6961806534a136dc9ef2b7ba0acd60bbbeac69d006a53f60c1542c1d732a7647699"
 
 [update]
-[update.curseforge]
-file-id = 5496777
-project-id = 852468
+[update.modrinth]
+mod-id = "91KKN86q"
+version = "QpAqU7uJ"

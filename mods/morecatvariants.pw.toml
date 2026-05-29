@@ -3,11 +3,11 @@ filename = "morecatvariants-neoforge-0.0.2+1.21.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "327ee6648f18e26124c786cd79e60b6ecc1b6007"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/cs5vil9i/versions/AVOzgWTl/morecatvariants-neoforge-0.0.2%2B1.21.jar"
+hash-format = "sha512"
+hash = "12156213496f615d1f227a35e849e19d16381fbc4017d2bcb89a686224e4e8b25038b5ac3b2c8453dc125ec8a669eb15e25a37eb028663dfc2ecdccc589c009c"
 
 [update]
-[update.curseforge]
-file-id = 6804903
-project-id = 1278854
+[update.modrinth]
+mod-id = "cs5vil9i"
+version = "AVOzgWTl"
