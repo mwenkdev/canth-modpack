@@ -743,7 +743,7 @@ file = "mods/ars-nouveau.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/auto-clicker-fabric.pw.toml"
+file = "mods/auto-clicker.pw.toml"
 metafile = true
 
 [[files]]
@@ -763,11 +763,19 @@ file = "mods/biomes-o-plenty.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/brewin-and-chewin.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cat-jammies.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/cat-loaf.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cfm-wap.pw.toml"
 metafile = true
 
 [[files]]
@@ -787,7 +795,27 @@ file = "mods/companions-mod.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/critters-and-companions.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cultural-delights.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/expanded-delight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight.pw.toml"
 metafile = true
 
 [[files]]
@@ -807,6 +835,10 @@ file = "mods/glitchcore.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/handcrafted.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/inventory-essentials.pw.toml"
 metafile = true
 
@@ -819,7 +851,7 @@ file = "mods/iron-chests.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/jei.pw.toml"
+file = "mods/jade.pw.toml"
 metafile = true
 
 [[files]]
@@ -879,6 +911,10 @@ file = "mods/revamped-cats.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ribbits.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/seamless-crafting.pw.toml"
 metafile = true
 
@@ -888,6 +924,10 @@ metafile = true
 
 [[files]]
 file = "mods/small-ships.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
 metafile = true
 
 [[files]]
@@ -911,7 +951,7 @@ file = "mods/supermartijn642s-core-lib.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/terrablender-neoforge.pw.toml"
+file = "mods/terrablender.pw.toml"
 metafile = true
 
 [[files]]
@@ -931,21 +971,21 @@ file = "mods/xaeros-world-map.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/yungs-api-neoforge.pw.toml"
+file = "mods/yungs-api.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/yungs-better-dungeons-neoforge.pw.toml"
+file = "mods/yungs-better-dungeons.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/yungs-better-mineshafts-neoforge.pw.toml"
+file = "mods/yungs-better-mineshafts.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/yungs-better-strongholds-neoforge.pw.toml"
+file = "mods/yungs-better-strongholds.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/yungs-extras-neoforge.pw.toml"
+file = "mods/yungs-extras.pw.toml"
 metafile = true

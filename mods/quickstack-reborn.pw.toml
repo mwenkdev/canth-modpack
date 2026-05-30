@@ -1,13 +1,13 @@
 name = "Quickstack Reborn"
-filename = "quickstack-1.21.1-neoforge-1.0.3.jar"
+filename = "quickstack-1.21.1-neoforge-1.0.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "40b14c206f305112cafb6d6ebe8919672d7b54a4"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/c9OBjwme/versions/skNd5O12/quickstack-1.21.1-neoforge-1.0.2.jar"
+hash-format = "sha512"
+hash = "3e0e060e94399893bbb119a2c3660a7eab6f49db8ab2d2eecbb6ba0d74ad7d240fa56ad0cf9d59a2c9d8ac68318d940d901ca2803e4e0906300969363718c15d"
 
 [update]
-[update.curseforge]
-file-id = 7434150
-project-id = 1402469
+[update.modrinth]
+mod-id = "c9OBjwme"
+version = "skNd5O12"
