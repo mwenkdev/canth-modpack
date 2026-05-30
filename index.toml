@@ -1,15 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/release.yml"
-
-[[files]]
-file = ".github/workflows/validate.yml"
-
-[[files]]
-file = "README.md"
-
-[[files]]
 file = "config/Mekanism/client.toml"
 
 [[files]]
