@@ -39,6 +39,7 @@ minecraft/screenshots/
 # Lock files
 *.lock
 
+*.mrpack
 # OS junk
 .DS_Store
 Thumbs.db

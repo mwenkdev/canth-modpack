@@ -20,7 +20,7 @@ permissions:
 
 jobs:
   release:
-    runs-on: marauders-runner
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
@@ -73,7 +73,7 @@ jobs:
   # Deploy pack files to GitHub Pages so itzg can pull via PACKWIZ_URL
   deploy-pages:
     needs: release
-    runs-on: marauders-runner
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
