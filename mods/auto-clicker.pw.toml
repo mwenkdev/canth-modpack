@@ -1,0 +1,13 @@
+name = "Auto Clicker"
+filename = "autoclicker-neoforge-21.1.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/r8axuw4u/versions/Is0Gm0oj/autoclicker-neoforge-21.1.1.jar"
+hash-format = "sha512"
+hash = "fb857c0fd6db7b75b37ad4972933deaf466eaca21ccdd77e6eac216b53cb4c665d04a04cbcaed22815c26596de8ed852f26a19c44b63c0fefdeec03cb5f62654"
+
+[update]
+[update.modrinth]
+mod-id = "r8axuw4u"
+version = "Is0Gm0oj"
