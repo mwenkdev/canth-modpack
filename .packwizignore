@@ -1,0 +1,4 @@
+# Repo-only files that aren't part of the deployed pack
+.github/
+README.md
+*.mrpack
