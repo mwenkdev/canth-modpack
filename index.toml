@@ -626,7 +626,7 @@ hash = "b03069c030f940550b4436d2f7c3dab582efa2fcc32b221ac30dbcb0617eab7f"
 
 [[files]]
 file = "config/bettermineshafts-neoforge-1_21.toml"
-hash = "37ee9275b9680c2d07d395cf41769c456c9b93adbf85ddf6514ee601977fa099"
+hash = "28f4dbb890ca8bf19b3c237cd569c176f0ed5240bae441f58183c4484be39281"
 
 [[files]]
 file = "config/betterstrongholds-neoforge-1_21.toml"
@@ -842,7 +842,7 @@ hash = "9098a40f3445da4e4e330750079d5629abe4632c211c6f8db11bb0dea829e5d8"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "654b5611f3c113a4f0f55f146c84f440520bc03c0a37b1e9d34eed19b08e662b"
+hash = "075e361ab8f3f2abc58c1ab9bf6ae484bc973b1ce4766c0f6e4d3b1c6c44bf9e"
 
 [[files]]
 file = "config/whitenoise-client.toml"
