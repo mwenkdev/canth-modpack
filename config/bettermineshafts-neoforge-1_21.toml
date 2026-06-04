@@ -19,7 +19,7 @@
 		# Default: 50
 		# Default: 50
 		# Range: 0 ~ 100
-		"Cobble Spawn Chance (Empty Deposit)" = 50
+		"Cobble Spawn Chance (Empty Deposit)" = 15
 		# Chance of an ore deposit containing coal.
 		# Default: 20
 		# Default: 20
@@ -29,22 +29,22 @@
 		# Default: 9
 		# Default: 9
 		# Range: 0 ~ 100
-		"Iron Spawn Chance" = 9
+		"Iron Spawn Chance" = 30
 		# Chance of an ore deposit containing redstone.
 		# Default: 7
 		# Default: 7
 		# Range: 0 ~ 100
-		"Redstone Spawn Chance" = 7
+		"Redstone Spawn Chance" = 15
 		# Chance of an ore deposit containing gold.
 		# Default: 7
 		# Default: 7
 		# Range: 0 ~ 100
-		"Gold Spawn Chance" = 7
+		"Gold Spawn Chance" = 10
 		# Chance of an ore deposit containing lapis lazuli.
 		# Default: 3
 		# Default: 3
 		# Range: 0 ~ 100
-		"Lapis Spawn Chance" = 3
+		"Lapis Spawn Chance" = 2
 		# Chance of an ore deposit containing emerald.
 		# Default: 3
 		# Default: 3
@@ -54,7 +54,7 @@
 		# Default: 1
 		# Default: 1
 		# Range: 0 ~ 100
-		"Diamond Spawn Chance" = 1
+		"Diamond Spawn Chance" = 5
 
 	###########################################################################################################
 	## Spawn rates for various mineshaft parts and decorations.
