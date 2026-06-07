@@ -1,12 +1,12 @@
 name = "Canth Server"
 author = "Canth"
-version = "1.3.2"
+version = "1.4.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3fa5537872259266598bdd0488c545e21b496722fd32f74612a3f580d33b10b5"
+hash = "8289ae042feb5efc74e77c835f7cdd342cae009b0b6eb86e9d301d185695b890"
 
 [versions]
 minecraft = "1.21.1"
