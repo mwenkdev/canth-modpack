@@ -921,6 +921,11 @@ file = "icon.png"
 hash = "c0b06183b4cf818cd60dd3210938de5aa852102c9ceb737f47975ee8cf966bc7"
 
 [[files]]
+file = "mods/advanced-loot-info.pw.toml"
+hash = "d4249918c6558a8c6112c819238cc201bf1f9c5a449bbb23358f97729e47d7a3"
+metafile = true
+
+[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "3d8f918c52e27d4c640f78c67c0a51a2ddbe4e3703c149e8ed9461f43bd5fedd"
 metafile = true
