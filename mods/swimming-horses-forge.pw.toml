@@ -1,0 +1,13 @@
+name = "Horses Can Swim"
+filename = "horsescanswim-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZrqMJA7K/versions/DXn0HRAX/horsescanswim-1.1.0.jar"
+hash-format = "sha512"
+hash = "4ac0e9586d38fb8ea2baa338bead0039d0cb5572b2db79816a4bedd3b8928f84d47271c59f01635dd89a3f797fe656431d4b336c7e09e0185b54a6b1e43e7f5e"
+
+[update]
+[update.modrinth]
+mod-id = "ZrqMJA7K"
+version = "DXn0HRAX"

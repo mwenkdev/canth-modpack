@@ -1226,6 +1226,11 @@ hash = "3c08d6331ca871abdfa7a185011d2a6349a1125cc6b2cf87f9c89ca4043dbe70"
 metafile = true
 
 [[files]]
+file = "mods/swimming-horses-forge.pw.toml"
+hash = "0650a6525525f58e74422d6e80b4a2a306af8cdc87bdd710fce8208c0eeaabcf"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
