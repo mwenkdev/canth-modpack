@@ -1116,11 +1116,6 @@ hash = "42061fd570a0b7a8063c0860056c6391593190caa0f12d3b49105e52a56817fe"
 metafile = true
 
 [[files]]
-file = "mods/minecraft-comes-alive-reborn.pw.toml"
-hash = "335c92c5a55fb5af9458c18e4f47789e2ea34e51871c598b83f2cdb15a287c8e"
-metafile = true
-
-[[files]]
 file = "mods/morecatvariants.pw.toml"
 hash = "0b2d2bdcced2c4c47b6dfa19cafa37b1e2e766af74ad6b9cb90c0f698fd7ae59"
 metafile = true
