@@ -991,6 +991,11 @@ hash = "cb0d95b4c9e0c8d3c37b895a79ebbfa239f0975d198e3a4646da76dca874c661"
 metafile = true
 
 [[files]]
+file = "mods/citadel.pw.toml"
+hash = "c8c78d6b861d3bf2053ac58bb00439d85231b9fdbf72d1ea03fd9035ce09edb7"
+metafile = true
+
+[[files]]
 file = "mods/client-tweaks.pw.toml"
 hash = "0023a57c07d2017de5e91da866b96d93c48c8f6fa6a504a04682afc070e215f1"
 metafile = true
@@ -1103,6 +1108,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "b6e0a61fea06f8d6d8e1672cf07b682625c4b74efd548d5093cd9c1fed167eec"
+metafile = true
+
+[[files]]
+file = "mods/jurassic-reborn.pw.toml"
+hash = "40853467cc0ea8179118a8ff3b56b66bdee98e1b042f66bcdda36b831ef652c3"
 metafile = true
 
 [[files]]
