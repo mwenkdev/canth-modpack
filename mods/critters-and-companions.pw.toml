@@ -1,6 +1,7 @@
 name = "Critters and Companions"
 filename = "crittersandcompanions-neoforge-1.21.1-2.3.4.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/Yd4wb5wZ/versions/a8zCwdaO/crittersandcompanions-neoforge-1.21.1-2.3.4.jar"
