@@ -1,6 +1,7 @@
 name = "Potentials"
 filename = "potentials-neoforge-1.21-0.7.1.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/J9pKOkxP/versions/EEjnSxLK/potentials-neoforge-1.21-0.7.1.jar"
