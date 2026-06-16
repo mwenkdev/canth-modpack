@@ -1016,6 +1016,11 @@ hash = "befa513d9d71d20ad0237aefc0a2e5236632b9de7c923393f03e57751a90b2dc"
 metafile = true
 
 [[files]]
+file = "mods/compat-delight.pw.toml"
+hash = "c2fa573c0956c12092a57877b9198290fb15ba1c8cf89a6e7268a69a85ff4bd3"
+metafile = true
+
+[[files]]
 file = "mods/critters-and-companions.pw.toml"
 hash = "758bd7689ea5b430957e2a534375b2f8ad883aa060bd39916af27139c0d8508b"
 metafile = true
