@@ -1142,7 +1142,7 @@ metafile = true
 
 [[files]]
 file = "mods/potentials.pw.toml"
-hash = "92446d159e74cb755c54cfffb6a3e5a0976ec4d203da360a327c6010daef3b51"
+hash = "7a886a91eebc007cee2a123eca16c37d9d0dc4c9d61ccf8d0ce3a529c994bf90"
 metafile = true
 
 [[files]]
