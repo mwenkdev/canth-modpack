@@ -937,12 +937,12 @@ metafile = true
 
 [[files]]
 file = "mods/ars-elemental.pw.toml"
-hash = "10569ea5c4293304f394ef4e4e26f2862ce325d0db4e5d7c143f2c8f1f9199cd"
+hash = "7e45222cd22baa7eaca2372b65b439b7d23a84cd36e046eb531f8b88c3c58c22"
 metafile = true
 
 [[files]]
 file = "mods/ars-nouveau.pw.toml"
-hash = "ec93a09720535c2f2fbccd3ec510c5e3eb18a9fa99ffe338e266c4cb6361d835"
+hash = "cdd14e71c41b125f57f01bfdccc750e9397cfd8b4a032f549e6607c29ce94e72"
 metafile = true
 
 [[files]]
@@ -967,12 +967,12 @@ metafile = true
 
 [[files]]
 file = "mods/biomes-o-plenty.pw.toml"
-hash = "9b1610cd28c49d34ce2fd760d208fb569f0e20055fee4c81ed4da6489b340312"
+hash = "a4931e5abbec081a08ab3a1d69b2d470596b6361d707a7756f6ad34c0f21f81e"
 metafile = true
 
 [[files]]
 file = "mods/brewin-and-chewin.pw.toml"
-hash = "0236c16fae038f834245ad6c9b05f385f75db2e82630bdbf71a4b1a2e6def57d"
+hash = "010e027daa9e6cda9afcd2a987afc6cac77207f7154f84f91a6239a2559b028e"
 metafile = true
 
 [[files]]
@@ -1007,7 +1007,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "74bc0383c39468bf65dc1939e3ca4824409142c16c3896437da78fbd7fb658cd"
+hash = "a7dabd3e4c6de8e6eb635ca1b3d2a5eac8166f51939ec8b228cddee58e4d7dbb"
 metafile = true
 
 [[files]]
@@ -1017,7 +1017,7 @@ metafile = true
 
 [[files]]
 file = "mods/companions-mod.pw.toml"
-hash = "befa513d9d71d20ad0237aefc0a2e5236632b9de7c923393f03e57751a90b2dc"
+hash = "4fd4e838e26ef428adcec6fa00102c6915e3e298af9baaff18e4632a0bc0b9b2"
 metafile = true
 
 [[files]]
@@ -1072,7 +1072,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "0521ed2becdf2b460511c92e80e2702a4b6e540c85c99fb571844e1c7c505724"
+hash = "076b61776e2df489b323758c97d85c5370554c044845ee2e90476a3c138779e8"
 metafile = true
 
 [[files]]
@@ -1092,7 +1092,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-essentials.pw.toml"
-hash = "702a028e2d428d352b4d664a21b0fb6182c20a930888a6c962f557aeba05871f"
+hash = "089d9964a4488354291274d44b5a0707254f3ea18addbbe2a65a9cf56c9ebb8b"
 metafile = true
 
 [[files]]
@@ -1112,7 +1112,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "5367193d3f87b7bc5a81bcd64a5b96a843e76d4df7a83c8bb7e1911aa82dd52e"
+hash = "e7b3c08c8b168d15e3997d41d0480d1d35cba0bdda94094f123d1eef65d0b0c4"
 metafile = true
 
 [[files]]
@@ -1122,7 +1122,7 @@ metafile = true
 
 [[files]]
 file = "mods/knight-lib.pw.toml"
-hash = "034dbcd1e0490ae3b607ca6cb53ef039e6ab983555a832497c5b8beccbaff760"
+hash = "6e2b60b804394c34a37d32154458997b4d48f4f6c11f8c92d8bad64719a532d3"
 metafile = true
 
 [[files]]
@@ -1222,12 +1222,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "96bb7a10b70c0aff16d43b28a656c3336f416c6dfa6a22cdf5d3b478d514faf6"
+hash = "2950556c3171e961c78ac6dfb82a006b2b9ad78eebda1930c7f1f436cf6db64b"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "b539f1a863542708d95aeb8d80b7b81ec00ef98d8ee3c79371d0ff444b2485b7"
+hash = "e2bc8421e37aa8cfab1f4d6f218653032b6b2f4b89dda0db759be9e089ffc741"
 metafile = true
 
 [[files]]
@@ -1282,7 +1282,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "66f85f7c21c70440f919d91a96190854c9af6b50f2214153ea0ab0a5c949ccdc"
+hash = "67121835339ff35bc213b2ede0375d10de4c1fc9f40c7579a47ebc1a3d050648"
 metafile = true
 
 [[files]]
