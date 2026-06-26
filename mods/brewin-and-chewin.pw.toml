@@ -1,6 +1,7 @@
 name = "Brewin' And Chewin'"
 filename = "BrewinAndChewin-neoforge-4.4.2+1.21.1.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/hIu9KJTT/versions/CKLYp96Y/BrewinAndChewin-neoforge-4.4.2%2B1.21.1.jar"
